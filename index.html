@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <script src="https://kit.fontawesome.com/955db3a6b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="portfolio-container">
+            <div class="portfolio-row header-wrap">
+            <div class="brand-name">
+            <a href="#" class="logo">Rachel Alegre</a>
+        </div>
+            <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="portfolio-navbar">
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Resume">Resume</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </header>
+    <section class="slide-carousel">
+        <div class="slider">
+            <div class="portfolio-container">
+                <div class="slider-container">
+                    <div class="slider-general">
+                        <span class="welcome-msg">
+                            Welcome!
+                        </span>
+                        <div class="welcome-text">
+                            <h1>
+                                Hi, I am
+                            </h1>
+                            <div class="text-wrap">
+                                <h2 class="main-title">Rachel Alegre</h2>
+                                <h2 class="hover-title">Rachel Alegre</h2>
+                            </div>
+                            <p>Aspiring and New Entrepreneur.
+                                <br>Opportunities don't happen, you create them. <br>It is never too late to be what you might have been.
+                                <br>Keep your face always toward the sunshine, and shadows will fall behind you.
+                            </p>
+                            <div class="download-resume">
+                                <a href="Rachel-CV.pdf" target="_blank">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-image">
+                        <div class="welcome-image">
+                            <img src="img/Myself.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="portfolio-container">
+            <div class="text-wrap">
+                <h2 class="main-title">Stay Connected</h2>
+                <h2 class="hover-title">Stay Connected</h2>
+            </div>
+            <div class="contact-info">
+                <span>
+                    Pulang Lupa Dos, Las Piñas City
+                </span>
+                <h3>alegrerachel777@gmail.com</h3>
+                <a href="Contact No.">
+                    +639 519082731
+                </a>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li><a href="https://www.facebook.com/rachel.alegre.54">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/rachquelssi/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click",function(){
+            document.querySelector(".portfolio-navbar").classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>
